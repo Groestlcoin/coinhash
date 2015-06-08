@@ -48,6 +48,11 @@ darkcoin_hash_module = Extension('coinhash.darkcoin_hash',
                                             'coinhash/darkcoin_hash/sha3/shavite.c'],
                                include_dirs=['coinhash/darkcoin_hash', 'coinhash/darkcoin_hash/sha3'])
 
+ltc_scrypt_module = Extension('coinhash.ltc_scrypt',
+                              sources=['coinhash/ltc_scrypt/scryptmodule.c',
+                                       'coinhash/ltc_scrypt/scrypt.c'],
+                              include_dirs=['coinhash/ltc_scrypt'])
+
 
 setup(
     name = 'coinhash',

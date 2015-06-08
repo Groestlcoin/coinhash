@@ -15,6 +15,7 @@ This package is a collection of various hash algorithms used by cryptocurrencies
     qubit_digest = coinhash.QubitHash(data)
     groestl_digest = coinhash.GroestlHash(data, len(data))
     x11_digest = coinhash.X11Hash(data)
+    scrypt_digest = coinhash.ScryptHash(data)
 ```
 
 ## License
