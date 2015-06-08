@@ -9,11 +9,11 @@ This package is a collection of various hash algorithms used by cryptocurrencies
 ```python
     import coinhash
     data = '00'.decode('hex')
-    neoscrypt_digest = coinhash.neoscrypt_hash(data)
-    skein_digest = coinhash.skein_hash(data)
-    qubit_digest = coinhash.qubit_hash(data)
-    groestl_digest = coinhash.groestl_hash(data, len(data))
-    x11_digest = coinhash.x11_hash(data)
+    neoscrypt_digest = coinhash.NeoscryptHash(data)
+    skein_digest = coinhash.SkeinHash(data)
+    qubit_digest = coinhash.QubitHash(data)
+    groestl_digest = coinhash.GroestlHash(data, len(data))
+    x11_digest = coinhash.X11Hash(data)
 ```
 
 ## License

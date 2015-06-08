@@ -1,5 +1,5 @@
-from neoscrypt import getPoWHash as neoscrypt_hash
-from skeinhash import getPoWHash as skein_hash
-from qubit_hash import getPoWHash as qubit_hash
-from groestlcoin_hash import getHash as groestl_hash
-from darkcoin_hash import getPoWHash as x11_hash
+from neoscrypt import getPoWHash as NeoscryptHash
+from skeinhash import getPoWHash as SkeinHash
+from qubit_hash import getPoWHash as QubitHash
+from groestlcoin_hash import getHash as GroestlHash
+from darkcoin_hash import getPoWHash as X11Hash
